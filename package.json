@@ -1,0 +1,24 @@
+{
+  "name": "bdd-playwright-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@types/dotenv": "^8.2.0",
+    "dotenv": "^16.4.5"
+  }
+}
